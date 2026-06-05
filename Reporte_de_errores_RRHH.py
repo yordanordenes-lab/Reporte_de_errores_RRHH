@@ -19,10 +19,6 @@ registros de asistencia y liquidaciones de sueldo (PDF).
 REQUISITOS:
     pip install pdfplumber pandas openpyxl
 
-AUTOR:      [Tu nombre o usuario de GitHub]
-REPO:       [URL del repositorio]
-LICENCIA:   MIT
-VERSIÓN:    2.0.0-refactor
 ================================================================================
 """
 
