@@ -17,15 +17,10 @@ pip install -r requirements.txt
 
 ## Uso básico
 
-```bash
-# Modo automático (detecta PDFs por nombre en la carpeta)
-python auditoria_mensual.py --carpeta ./datos/
+Para ejecutar el script y comenzar la auditoría automatizada, simplemente abre la terminal en la raíz del proyecto y ejecuta el siguiente comando:
 
-# Modo manual (rutas específicas)
-python auditoria_mensual.py \
-  --asistencia ./datos/asistencia.pdf \
-  --liquidacion ./datos/liquidacion.pdf \
-  --salida reporte.xlsx
+```bash
+python Reporte_de_errores_RRHH.py
 ```
 
 ## Salida
