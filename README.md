@@ -31,6 +31,7 @@ python auditoria_mensual.py \
 ## Salida
 
 Genera un archivo Excel con tres hojas:
-Hallazgos: discrepancias detectadas
-Duplicados: RUTs repetidos
-Resumen: métricas generales
+
+- Hallazgos: discrepancias detectadas
+- Duplicados: RUTs repetidos
+- Resumen: métricas generales
