@@ -1,11 +1,15 @@
 # Auditoría RRHH - Asistencia vs Liquidación
 
-Script en Python para cruzar registros de asistencia con liquidaciones de sueldo (PDF).
+Script en Python experimental para automatizar la revisión cruzada entre registros de asistencia y liquidaciones de sueldo en PDF (formato chileno)
 
 ⚠️ **Proyecto educativo con datos 100% ficticios.**  
-No procesar datos reales sin salvaguardas legales (Ley 19.628, GDPR).
+- Uso educativo y experimental.
+- Los datos de prueba incluidos son ficticios.
+- No procesar datos reales sin salvaguardas legales (Ley 19.628, GDPR).
 
 ## Requisitos
+- Python 3.8+
+- Las dependencias del archivo `requirements.txt`
 
 ```bash
 pip install -r requirements.txt
