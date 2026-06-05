@@ -1,6 +1,21 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos de salida del script
 *.xlsx
 *.xls
-__pycache__/
-*.pyc
-.env
-.venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
