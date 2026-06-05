@@ -13,3 +13,24 @@ Script en Python experimental para automatizar la revisión cruzada entre regist
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Uso básico
+
+```bash
+# Modo automático (detecta PDFs por nombre en la carpeta)
+python auditoria_mensual.py --carpeta ./datos/
+
+# Modo manual (rutas específicas)
+python auditoria_mensual.py \
+  --asistencia ./datos/asistencia.pdf \
+  --liquidacion ./datos/liquidacion.pdf \
+  --salida reporte.xlsx
+```
+
+## Salida
+
+Genera un archivo Excel con tres hojas:
+Hallazgos: discrepancias detectadas
+Duplicados: RUTs repetidos
+Resumen: métricas generales
