@@ -8,6 +8,7 @@ Script en Python experimental para automatizar la revisión cruzada entre regist
 - No procesar datos reales sin salvaguardas legales (Ley 19.628, GDPR).
 
 ## Requisitos
+
 - Python 3.8+
 - Las dependencias del archivo `requirements.txt`
 
@@ -15,11 +16,27 @@ Script en Python experimental para automatizar la revisión cruzada entre regist
 pip install -r requirements.txt
 ```
 
+
 ## Uso básico
 
-Para ejecutar el script y comenzar la auditoría automatizada, simplemente abre la terminal en la raíz del proyecto y ejecuta el siguiente comando:
+💡 Nota sobre los archivos de prueba: Al clonar el repositorio, los archivos LIQUIDACIÓN DE SUELDO.pdf y REGISTRO DE ASISTENCIA.pdf ya vienen incluidos automáticamente en la misma carpeta que el script.
+
+Para ejecutar la auditoría, usa uno de los siguientes métodos según cómo abras el proyecto:
+
+Opción A: Desde Visual Studio Code (Recomendado)
+Si abres la carpeta del proyecto directamente en VS Code (File > Open Folder...), tu terminal integrada ya se iniciará en el lugar correcto. Solo debes ejecutar:
 
 ```bash
+python Reporte_de_errores_RRHH.py
+```
+Opción B: Desde una terminal externa (PowerShell / CMD / Terminal)
+Si ejecutas los comandos desde una consola limpia por separado, la terminal iniciará "afuera" del proyecto. Debes usar el comando cd para entrar a la carpeta antes de despertar a Python:
+
+```bash
+# 1. Entra a la carpeta del proyecto clonado
+cd Reporte_de_errores_RRHH
+
+# 2. Ejecuta el script
 python Reporte_de_errores_RRHH.py
 ```
 
